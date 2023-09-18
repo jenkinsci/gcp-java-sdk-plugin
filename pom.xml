@@ -33,15 +33,15 @@
   </scm>
 
   <modules>
-    <module>gcp-java-sdk</module>
+    <module>gcp-java-sdk-auth</module>
+    <module>gcp-java-sdk-storage</module>
   </modules>
 
   <properties>
-    <revision>26.22.0</revision> <!-- FTR, this version aligns with https://github.com/googleapis/java-cloud-bom -->
+    <revision>26.23.0</revision> <!-- FTR, this version aligns with https://github.com/googleapis/java-cloud-bom -->
     <changelist>999999-SNAPSHOT</changelist>
     <bom>2.401.x</bom>
     <jenkins.version>2.401.3</jenkins.version>
-    <autoVersionSubmodules>true</autoVersionSubmodules>
   </properties>
 
   <repositories>
