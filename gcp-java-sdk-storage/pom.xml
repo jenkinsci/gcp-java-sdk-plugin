@@ -24,7 +24,7 @@
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-storage-parent</artifactId>
-      <version>${module-revision}</version> <!-- For some reason, the parent version is not aligned to the module version... -->
+      <version>${module-revision}</version> 
     </dependency>
   </dependencies>
 </project>
