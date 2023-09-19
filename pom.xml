@@ -9,8 +9,8 @@
     <relativePath />
   </parent>
 
-  <groupId>org.jenkins-ci.plugins.gcp-java-sdk</groupId>
-  <artifactId>gcp-java-sdk-parent</artifactId>
+  <groupId>io.jenkins.plugins</groupId>
+  <artifactId>gcp-java-sdk</artifactId>
   <version>${revision}-${changelist}</version>
   <packaging>pom</packaging>
 
