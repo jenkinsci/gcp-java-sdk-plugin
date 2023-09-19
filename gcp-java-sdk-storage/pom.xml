@@ -4,7 +4,7 @@
 
   <parent>
     <groupId>io.jenkins.plugins</groupId>
-    <artifactId>gcp-java-sdk-parent</artifactId>
+    <artifactId>gcp-java-sdk</artifactId>
     <version>${revision}-${changelist}</version>
   </parent>
 
