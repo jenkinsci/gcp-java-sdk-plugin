@@ -17,7 +17,7 @@
   <url>https://github.com/jenkinsci/gcp-java-sdk-plugin</url>
 
   <properties>
-    <module.revision>2.27.0</module.revision> <!-- aligns with https://github.com/googleapis/java-storage -->
+    <module.revision>2.29.1</module.revision> <!-- aligns with https://github.com/googleapis/java-storage -->
   </properties>
 
   <dependencies>
