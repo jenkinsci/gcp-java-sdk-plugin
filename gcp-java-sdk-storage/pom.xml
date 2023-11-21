@@ -10,15 +10,10 @@
 
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>gcp-java-sdk-storage</artifactId>
-  <version>${module.revision}-${changelist}</version> 
   <packaging>hpi</packaging>
 
   <name>Google Cloud Platform SDK :: Storage</name>
   <url>https://github.com/jenkinsci/gcp-java-sdk-plugin</url>
-
-  <properties>
-    <module.revision>2.27.0</module.revision> <!-- aligns with https://github.com/googleapis/java-storage -->
-  </properties>
 
   <dependencies>
     <dependency>
@@ -27,4 +22,3 @@
     </dependency>
   </dependencies>
 </project>
-
