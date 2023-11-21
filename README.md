@@ -4,6 +4,8 @@ This plugin provides the [Java Cloud Client Libraries](https://cloud.google.com/
 
 This use single version for all modules following `${revision}-${changeList}` pattern.
 The `revision` part is aligned with [Google Java Cloud BOM version](https://github.com/googleapis/java-cloud-bom).
+
+Example of resulting wrapper artifacts and wrapped libraries:
 ```
 io.jenkins.plugins:gcp-java-sdk:26.23.0-999999-SNAPSHOT
 
