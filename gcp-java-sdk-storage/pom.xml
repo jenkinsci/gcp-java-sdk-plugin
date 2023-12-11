@@ -17,16 +17,13 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>jackson2-api</artifactId>
+    </dependency>
+    <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-storage</artifactId>
       <exclusions>
-
-        <!-- use plugin dependency instead -->
-        <exclusion>
-          <groupId>com.fasterxml.jackson.core</groupId>
-          <artifactId>jackson-core</artifactId>
-        </exclusion>
-
         <exclusion>
           <groupId>com.google.android</groupId>
           <artifactId>annotations</artifactId>
@@ -77,18 +74,21 @@
         </exclusion>
 
         <!-- provided by core -->
+        <!-- IMPORTANT: on GCP SDK bump, verify that this dependency is aligned with the equivalent dependency from Jenkins core -->
         <exclusion>
           <groupId>com.google.guava</groupId>
           <artifactId>failureaccess</artifactId>
         </exclusion>
 
         <!-- provided by core -->
+        <!-- IMPORTANT: on GCP SDK bump, verify that this dependency is aligned with the equivalent dependency from Jenkins core -->
         <exclusion>
           <groupId>com.google.guava</groupId>
           <artifactId>guava</artifactId>
         </exclusion>
 
         <!-- provided by core -->
+        <!-- IMPORTANT: on GCP SDK bump, verify that this dependency is aligned with the equivalent dependency from Jenkins core -->
         <exclusion>
           <groupId>com.google.guava</groupId>
           <artifactId>listenablefuture</artifactId>
@@ -116,6 +116,7 @@
         </exclusion>
 
         <!-- provided by core -->
+        <!-- IMPORTANT: on GCP SDK bump, verify that this dependency is aligned with the equivalent dependency from Jenkins core -->
         <exclusion>
           <groupId>commons-codec</groupId>
           <artifactId>commons-codec</artifactId>
@@ -198,10 +199,6 @@
           <artifactId>conscrypt-openjdk-uber</artifactId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.jenkins-ci.plugins</groupId>
-      <artifactId>jackson2-api</artifactId>
     </dependency>
   </dependencies>
 </project>
