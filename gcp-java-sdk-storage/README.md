@@ -1,0 +1,3 @@
+# Google Cloud Platform SDK :: Storage Plugin
+
+:bulb: This plugin does not provide all of the [Google Cloud Storage Client for Java dependencies](https://github.com/googleapis/java-storage), but only the ones which were requested by other plugins, following an incremental and iterative approach. If you need a particular library that is not yet provided by this plugin, please feel free to request it or contribute it.
