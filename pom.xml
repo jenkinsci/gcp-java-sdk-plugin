@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>4.75</version>
+    <version>5.7</version>
     <relativePath />
   </parent>
 
@@ -41,8 +41,9 @@
     <java-cloud-bom.version>26.23.0</java-cloud-bom.version>
     <revision>${java-cloud-bom.version}</revision> <!-- FTR, this version aligns with https://github.com/googleapis/java-cloud-bom -->
     <changelist>999999-SNAPSHOT</changelist>
-    <bom>2.401.x</bom>
-    <jenkins.version>2.401.3</jenkins.version>
+    <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
+    <jenkins.baseline>2.479</jenkins.baseline>
+    <jenkins.version>${jenkins.baseline}.1</jenkins.version>
   </properties>
 
   <repositories>
@@ -63,8 +64,8 @@
     <dependencies>
       <dependency>
         <groupId>io.jenkins.tools.bom</groupId>
-        <artifactId>bom-${bom}</artifactId>
-        <version>2555.v3190a_8a_c60c6</version>
+        <artifactId>bom-${jenkins.baseline}.x</artifactId>
+        <version>3893.v213a_42768d35</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
